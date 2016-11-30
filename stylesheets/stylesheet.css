@@ -414,10 +414,16 @@ optgroup {
  * Remove most spacing between table cells.
  */
 
-table {
+/**table {
   border-collapse: collapse;
   border-spacing: 0;
+}*/
+
+table, th, td {
+ border: 0px solid black;
+ vertical-align: top;
 }
+
 
 td,
 th {
